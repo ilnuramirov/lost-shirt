@@ -4,7 +4,7 @@
     const activeClass = "fade-slider__item--visible";
     let index = 0;
 
-    console.log(sliders[1]);
+   
 
     setInterval(function(){
         sliders[index].classList.remove(activeClass);
